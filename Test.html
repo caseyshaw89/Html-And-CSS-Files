@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <title>testplease</title>
+   <style type="text/css">
+   h2 { letter-spacing: 10px; font-size: .2in;
+   background-color: rgb(o,0,100); color: blue;
+   posisitonisiton: relative; 
+   margin: 0 auto; 
+   padding: 20px, 20px, 20px;
+   width: 310px;
+  text-shadow: 0 1px white; }
+  span {color: red;}
+  label{ display: block;
+  padding: 5px;
+  position: relative; line-height: 2;
+  margin: 0 auto;
+  width: 310px;
+  } 
+ .text { position: absolute;}  
+  fieldset{ background-color: lightblue; 
+  width: 300px; position: relative; margin: 0 auto; 
+  font-size: 15px;
+  text-shadow: 0 1px white; 
+ }
+ .buttons{ color: blue; margin-left: 50px; position: relative; cursor:pointer; 
+}
+
+ body {background-color: lightgreen;}
+ </style>
+ </head>
+ <body>
+   
+ <h2>Login Page</h2>
+ <form name="login_page">
+   <fieldset>
+      <legend>Login Form</legend>
+    <label>Username: <span>*</span><input class="text" type="text" name="username" value=""placeholder="user name or email"/></label>
+	<label>Password:  <span>*</span><input class="text" type="password" name="pass" value=""placeholder="password"/></label>
+    <input class="buttons" type="reset"/> <input class="buttons" type="submit"/>
+    
+	<label>Remember me on this device<input type="checkbox" name="remember_me" id="remember_me"/></label>
+    <label><p>Forgot your password? <a class="text" href="#">Click here to reset it</a></p></label>
+  </fieldset>
+   </form>
+ </body>
+ 
+</html>
+	
+	
